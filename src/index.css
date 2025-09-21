@@ -11,7 +11,6 @@
   top: 0;
   z-index: 1000;
 }
-
 /* Logo*
 
 
@@ -126,4 +125,45 @@
 .education-item:hover {
   transform: translateX(5px);
   background: #eef2f9;
+}
+.home-container {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-container h1 {
+  color: #2a5298;
+  margin-bottom: 25px;
+}
+
+.home-container p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #2a5298;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e3c72;
+}
+.logo {
+  height: 40px; /* adjust to fit your navbar */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
