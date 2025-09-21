@@ -1,5 +1,5 @@
 // Components/About.jsx
-import resumePDF from "../assets/Suha_Oudeh_Resume.pdf";
+import resumePDF from "../assets/SUHA OUDEH-resume.pdf";
 import React from "react";
 
 export default function About() {
