@@ -6,7 +6,9 @@ import Contact from './Components/Contact';
 import Education from './Components/Education';
 import Project from './Components/Project';
 import Service from './Components/Service';
-import logo from "logo.png"; // Import the logo image
+// Import the logo image
+import logo from './assets/logo.png';
+
 
 const MainRouter = () => {
   return (
