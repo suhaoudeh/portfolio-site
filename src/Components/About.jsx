@@ -1,4 +1,5 @@
 // Components/About.jsx
+import resumePDF from "../assets/Suha_Oudeh_Resume.pdf";
 import React from "react";
 
 export default function About() {
@@ -27,6 +28,14 @@ export default function About() {
           I am grateful for the opportunities to learn and improve my skills, 
           and I hope this portfolio reflects my dedication and enthusiasm.
         </p>
+         <a
+          href={resumePDF}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-btn"
+        >
+          View My Resume
+        </a>
       </div>
     </div>
   );
