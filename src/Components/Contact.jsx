@@ -1,6 +1,6 @@
 // Components/Contact.jsx
 import React, { useState } from "react";
-import "./Contact.css"; // optional CSS for styling
+
 
 export default function Contact() {
   const [formData, setFormData] = useState({
