@@ -3,11 +3,11 @@ export default function Education() {
   return (
     <>
       <div>
-        <h1>Education Page</h1>
+        
         {
     
     <div className="education-container">
-      <h1>Education</h1>
+      <h1>My Education </h1>
       <p>Here are my academic and professional qualifications:</p>
 
       <div className="education-list">
