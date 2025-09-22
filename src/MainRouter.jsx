@@ -6,6 +6,7 @@ import Contact from './Components/Contact';
 import Education from './Components/Education';
 import Project from './Components/Project';
 import Service from './Components/Service';
+
 // Import the logo image
 
 

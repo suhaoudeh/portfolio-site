@@ -1,12 +1,12 @@
 // Components/Home.jsx
 import { Link } from "react-router-dom";
-import logo from '../assets/logo1.png';
+
 export default function Home() {
   return (
        <>
       
       <div className="home-container">
-        <img src={logo} alt="Logo" className="logo" />
+        
         <h1>Welcome to My Portfolio</h1>
 
       <p>
