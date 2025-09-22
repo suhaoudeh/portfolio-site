@@ -11,7 +11,7 @@ export default function Layout() {
           <Link to="/">
             <img src={logo} alt="Logo" className="logo-img" />
           </Link>
-          <span className="logo-text">Suha's Portfolio</span>
+          <span className="logo-text">Suha Oudeh</span>
         </div>
 
         {/* Navigation Links */}
