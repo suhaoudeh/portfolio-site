@@ -2,7 +2,7 @@
 import React from "react";
 import project1Img from "../assets/project1.png";
 import project2Img from "../assets/project2.png";
-import project3Img from "../assets/project3.JPEG";
+import project3Img from "../assets/project3.jpeg";
 
 export default function Project() {
   const projects = [
