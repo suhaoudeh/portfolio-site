@@ -8,21 +8,21 @@ export default function Project() {
   const projects = [
     {
       id: 1,
-      name: "Web Portfolio",
+      name: "Frank Team Inc Website",
       image: project1Img,
-      description: "Built my personal portfolio website using React. Showcases my skills, projects, and education.",
+      description: " Designed and developed a responsive website for Frank Team Inc using React and CSS. Implemented features such as a project gallery, contact form, and team member profiles. ",
     },
     {
       id: 2,
-      name: "Online Store",
+      name: "Wedding Planner website ",
       image: project2Img,
-      description: "Developed an e-commerce web app with product listings, cart, and checkout features.",
+      description: " Developed a wedding planning website with features for managing events, guests, and vendors.",
     },
     {
       id: 3,
-      name: "Appointment System",
+      name: " Appointment Booking System for real estate agents",
       image: project3Img,
-      description: "Created an online appointment booking system for clinics with notifications and history tracking.",
+      description: " Created an appointment booking system tailored for real estate agents, featuring property listings, client management, and appointment scheduling.",
     },
   ];
 
