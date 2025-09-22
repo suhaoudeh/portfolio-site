@@ -324,7 +324,7 @@
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #2a5298;
+  background-color: #385fa3;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -333,11 +333,11 @@
 }
 
 .resume-btn:hover {
-  background-color: #1e3c72;
+  background-color: #617498;
 }
 /* Layout / Navbar styles */
 .layout-header {
-  background-color: #222;
+  background-color: #868181;
   padding: 10px 30px;
 }
 
