@@ -16,13 +16,13 @@ export default function Project() {
       id: 2,
       name: "Wedding Planner website ",
       image: project2Img,
-      description: " Developed a wedding planning website with features for managing events, guests, and vendors.",
+      description: " Developed a wedding planning website with features for managing events, guests, and vendors. Implemented user authentication and a dashboard for tracking wedding details.",
     },
     {
       id: 3,
       name: " Appointment Booking System for real estate agents",
       image: project3Img,
-      description: " Created an appointment booking system tailored for real estate agents, featuring property listings, client management, and appointment scheduling.",
+      description: " Created an appointment booking system tailored for real estate agents, featuring property listings, client management, and appointment scheduling. ",
     },
   ];
 
