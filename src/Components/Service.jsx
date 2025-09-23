@@ -10,21 +10,21 @@ export default function Service() {
       name: "Community Volunteer",
       image: service1Img,
       description:
-        "I volunteer at our community to help newcomers with registration forms and provide translation support to help them fill up the documents.",
+        " I volunteer at our community to help newcomers with registration forms and provide translation support to help them fill up the documents. willing to help in any way I can. ", 
     },
     {
       id: 2,
       name: "Web Development",
       image: service2Img,
       description:
-        "I create modern and responsive websites anytime, tailored to individual or business needs.  ",
+        "I create modern and responsive websites anytime, tailored to individual or business needs. I use technologies like HTML, CSS, JavaScript, and React to build user-friendly and visually appealing websites. i ensure the websites are optimized for performance and accessibility.",
     },
     {
       id: 3,
       name: "Problem Solving",
       image: service3Img,
       description:
-        "Offer problem solving in areas such as coding, database management, and other technical challenges. ",
+        "Offer problem solving in areas such as coding, database management, and other technical challenges.I enjoy tackling complex problems and finding efficient solutions. Also, I am always eager to learn new technologies and improve my skills.",
     },
   ];
 
