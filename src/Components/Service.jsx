@@ -1,6 +1,6 @@
 import React from "react";
-import service1Img from "../assets/service1.png"; // volunteer image
-import service2Img from "../assets/service2.png"; // web development image
+import service1Img from "../assets/service1.jpeg"; // volunteer image
+import service2Img from "../assets/service2.jpg"; // web development image
 import service3Img from "../assets/service3.png"; // problem solving image
 
 export default function Service() {
