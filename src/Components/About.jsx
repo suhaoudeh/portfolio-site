@@ -1,5 +1,5 @@
-// Components/About.jsx
 import resumePDF from "../assets/SUHA OUDEH-resume.pdf";
+import suhaPhoto from "../assets/suha.jpg";
 import React from "react";
 
 export default function About() {
@@ -7,35 +7,42 @@ export default function About() {
     <div className="about-container">
       <h1>About Me</h1>
 
-      <div className="about-text">
-        <p>
-          Hello! My name is <strong>Suha Oudeh</strong>. I am a passionate web developer 
-          currently studying Software Engineering at Centennial College. 
-          I love learning new technologies and building projects that make an impact.
-        </p>
+      <div className="about-content">
+        {/* Profile Image */}
+        <img src={suhaPhoto} alt="Suha Oudeh" className="profile-img" />
 
-        <p>
-          I have a diverse educational background, including a Bachelor in TI, Office Administration Certificate, 
-          and a Diploma from Adult High School in Canada. I also completed high school in Palestine with an A+ grade.
-        </p>
+        {/* About Text */}
+        <div className="about-text">
+          <p>
+            Hello! My name is <strong>Suha Oudeh</strong>. I am a passionate web developer 
+            currently studying Software Engineering at Centennial College. 
+            I love learning new technologies and building projects that make an impact.
+          </p>
 
-        <p>
-          This portfolio showcases my skills, projects, services, and education. 
-          I created it to demonstrate my growth as a developer and connect with potential collaborators or employers.
-        </p>
+          <p>
+            I have a diverse educational background, including a Bachelor in TI, Office Administration Certificate, 
+            and a Diploma from Adult High School in Canada. I also completed high school in Palestine with an A+ grade.
+          </p>
 
-        <p>
-          I am grateful for the opportunities to learn and improve my skills, 
-          and I hope this portfolio reflects my dedication and enthusiasm.
-        </p>
-         <a
-          href={resumePDF}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-btn"
-        >
-          View My Resume
-        </a>
+          <p>
+            This portfolio showcases my skills, projects, services, and education. 
+            I created it to demonstrate my growth as a developer and connect with potential collaborators or employers.
+          </p>
+
+          <p>
+            I am grateful for the opportunities to learn and improve my skills, 
+            and I hope this portfolio reflects my dedication and enthusiasm.
+          </p>
+
+          <a
+            href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-btn"
+          >
+            View My Resume
+          </a>
+        </div>
       </div>
     </div>
   );
