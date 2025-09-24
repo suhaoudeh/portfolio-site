@@ -483,3 +483,34 @@
   color: #555;
   line-height: 1.5;
 }
+.about-content {
+  display: flex;
+  flex-direction: column; /* mobile default */
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 200px;       /* adjust size */
+  height: 200px;
+  border-radius: 50%; /* circular image */
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+.about-text {
+  max-width: 700px;
+  text-align: left;
+}
+
+
+@media (min-width: 768px) {
+  .about-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-text {
+    margin-left: 30px;
+  }
+}
