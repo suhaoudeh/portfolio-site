@@ -1,8 +1,10 @@
 // Components/Contact.jsx
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom"; // ✅ import this
 
 export default function Contact() {
+  const navigate = useNavigate(); // ✅ create navigate instance
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -19,9 +21,14 @@ export default function Contact() {
   // Handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); // log the form data
+    console.log(formData); 
     alert("Message sent! Thank you.");
+
+    // reset form
     setFormData({ firstName: "", lastName: "", email: "", phone: "", message: "" });
+
+    // ✅ redirect to Home
+    navigate("/");
   };
 
   return (
