@@ -1,9 +1,9 @@
 // Components/Contact.jsx
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // ✅ import this
+import { useNavigate } from "react-router-dom"; // import this
 
 export default function Contact() {
-  const navigate = useNavigate(); // ✅ create navigate instance
+  const navigate = useNavigate(); // create navigate instance
 
   const [formData, setFormData] = useState({
     firstName: "",
@@ -27,7 +27,7 @@ export default function Contact() {
     // reset form
     setFormData({ firstName: "", lastName: "", email: "", phone: "", message: "" });
 
-    // ✅ redirect to Home
+    // redirect to Home
     navigate("/");
   };
 
